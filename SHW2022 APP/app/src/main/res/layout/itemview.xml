@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingHorizontal="15dp"
+    android:paddingVertical="20dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="20dp"
+        android:text="name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+    <Button
+        android:enabled="false"
+        android:id="@+id/sub"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#808080"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/cnt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="1"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#808080"
+        android:text="+" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="price"
+        android:layout_weight="1"
+        android:gravity="center"
+        />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="X" />
+</LinearLayout>
