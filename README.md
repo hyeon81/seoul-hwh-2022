@@ -6,7 +6,7 @@
 
 # 시연
 ![슬라이드8](https://user-images.githubusercontent.com/12480623/187054580-f4266654-f419-428e-a5a6-a59f6e1e0716.PNG)
-
+https://youtu.be/3bYvZU10T3Q
 
 # 참가자
 - [팀장 오정민 - 개발 총괄](https://github.com/owjs3901/)
